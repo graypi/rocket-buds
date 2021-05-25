@@ -57,6 +57,12 @@ html,body {
 	margin-right: 0px;
 }
 
+.shop-link {
+	background: url('../assets/shop.png');
+	background-size: contain;
+	width: 50px !important;
+}
+
 .ig-link {
     background: url('../assets/IG-Logo.png');
 	background-size: contain;
@@ -84,6 +90,9 @@ html,body {
 		width: 40px;
 		height: 40px;
 	}
+	.shop-link {
+		width: 80px !important;
+	}
 }
 
 @media(max-width:550px) {
@@ -101,5 +110,8 @@ html,body {
 	.social-links a {
 		width: 25px;
 		height: 25px;
+	}
+	.shop-link {
+		width: 50px !important;
 	}
 }
